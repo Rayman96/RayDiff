@@ -1,6 +1,6 @@
 # Distributed Qwen Image Pipeline
 
-一个支持多GPU分布式推理的Qwen-Image模型脚本，支持可配置的设备分配和性能优化。
+一个DiffSynth补丁脚本，支持多GPU分布式推理的Qwen-Image模型脚本，基于[DiffSynth](https://github.com/modelscope/DiffSynth-Studio)流水线，支持可配置的设备分配和性能优化。
 
 ![DIs](./DIs.png)
 
@@ -17,10 +17,10 @@
 - ✅ 错误处理和验证
 
 ## 安装依赖
+参考 [DiffSynth Studio](https://github.com/modelscope/DiffSynth-Studio) 安装依赖。
 
 ```bash
-pip install torch torchvision torchaudio
-pip install diffsynth transformers pillow tqdm
+pip install diffsynth
 ```
 
 ## 使用方法
